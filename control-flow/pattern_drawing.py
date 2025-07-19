@@ -1,7 +1,12 @@
 symbol=input("what symbol do you love  ")
 number=int(input("Enter the size of the pattern: "))
-for i in range (number):
-    for j in range(number):
-        print(symbol,end=" ")
+i = 0
+while i < number:
+    j = 0
+    while j < number:
+        print(symbol, end=" ")
+        j += 1
     print()
+    i += 1
+
     
