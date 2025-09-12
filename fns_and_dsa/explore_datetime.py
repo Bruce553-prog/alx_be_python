@@ -1,4 +1,5 @@
 # explore_datetime.py
+import random
 
 from datetime import datetime, timedelta
 
@@ -27,3 +28,12 @@ def calculate_future_date(current_date):
 if __name__ == "__main__":
     current_date = display_current_datetime()
     calculate_future_date(current_date)
+list={"Jack","robi","Kentusky"}
+random.reshuffle (list)
+print(list)
+
+database="what database are you proefficient in ?"
+if database=="mongoDB":
+    print("I didnt know you are good in ?")
+elif database=="My SQL ":
+    print("wow, that is the most widely know and uesed relational databaa")
